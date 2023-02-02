@@ -4,7 +4,9 @@ let two = prompt("Please enter second grocery item.");
 let twoNum = prompt("How many of the second item?");
 let three = prompt("Please enter your third grocery item.");
 let threeNum = prompt("How many of third item?");
-console.log(` ${oneNum} ${one} \n ${twoNum} ${two} \n ${threeNum} ${three}`);
+console.log(` ${oneNum} ${one} 
+${twoNum} ${two}
+${threeNum} ${three}`);
 let sum = Number(oneNum) + Number(twoNum) + Number(threeNum);
 console.log(`Total number of items: ${sum}`);
 
